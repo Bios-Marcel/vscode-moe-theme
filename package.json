@@ -1,0 +1,22 @@
+{
+    "name": "moe-theme",
+    "displayName": "Moe Theme",
+    "description": "A cute color scheme for your Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "yuyueshihaoren",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Moe Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Moe Theme-color-theme.json"
+            }
+        ]
+    }
+}
